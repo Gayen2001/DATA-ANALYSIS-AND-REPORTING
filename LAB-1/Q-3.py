@@ -4,6 +4,6 @@ import requests
 
 urlName = 'https://api.restful-api.dev/objects'
 
-r = requests.get(urlName)
+responce= requests.get(urlName)
 
-pprint.pprint(r.json())
+pprint.pprint(respone.json())
